@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) {
+  
+ 
+  #header h1 {
+    margin-left: 3rem;
+  }
+  .header-img {
+    width: 100%;
+    height: auto;
+  }
+  .header {
+    h1 {
+      margin: auto;
+    }
+    h2 {
+      width: 100%;
+    }
+  }
+  .card-img img {
+    height: auto;
+  }
+  .main-contact-form {
+    margin-bottom: 20px;
+  }
+  .navbar-toggler{
+    justify-content: flex-end;
+  }
+  .navbar{
+    display: flex;
+    
+  }
+  .main-button {
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 40px;
+    transition: 0.5;
+    color: #de0f27;
+    border: 2px solid #de0f27;
+    text-decoration: none;
+}
+.Common{
+  h1{
+    text-align: center;
+  }
+  .brand-name {
+    display: flex;
+    justify-content: center;
+  }
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+.Common{
+  h1{
+    text-align: center;
+  }
+  .brand-name {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+}
+

@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Multi", sans-serif;
+  // height: 100vh;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+    list-style: none;
+  }
+}
+// IMPORTS
+@import "../style/responsive.scss";
+
+// VARIBLES
+$p_color: rgb(222, 15, 39);
+$s_color: #565387;
+
+// COMMON
+
+.main-breadcrumb {
+  margin: 20px 0;
+  h2 {
+    text-align: center;
+  }
+}
+.navbar {
+  a {
+    font-size: 1.3rem !important;
+    color: $s_color;
+    &:hover {
+      color: $p_color;
+    }
+  }
+
+  nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: $s_color;
+    text-decoration: none;
+    transition: color 0.15s;
+   
+  }
+}
+
+.card-body {
+  .brand-name {
+    color: $p_color;
+  }
+  h1 {
+    font-weight: 700;
+  }
+  h2 {
+    color: $s_color;
+    font-size: 20px;
+  }
+  .btn-get-started {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5;
+    color: $p_color;
+    border: 2px solid $p_color;
+    text-decoration: none;
+    &:hover {
+      background: $p_color;
+      color: #fff;
+    }
+  }
+}
+
+.main-button {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5;
+  color: $p_color;
+  border: 2px solid $p_color;
+  text-decoration: none;
+  &:hover {
+    background: $p_color;
+    color: #fff;
+  }
+}
+.btn-get-started {
+  background-color: #fff;
+  // &:hover {
+  //   &:hover {
+  //     background: white;
+  //     color: $p_color;
+  //   }
+  // }
+}
+.footer {
+  background-color: rgb(252, 247, 241);
+  text-align: center;
+  p {
+    margin-bottom: 0% !important;
+    margin-top: 0% !important;
+  }
+}
+
+.contactpage {
+
+  display: flex;
+
+}
+.Contact-company {
+  justify-content: flex-end;
+}
+//common file
+.Common {
+  .brand-name {
+    color: $p_color;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+ .contact{
+  color: $p_color;
+ }
+}
+
+// NAVBAR ADDED
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px $p_color;
+}
+.navbar-left img {
+  width: 40% ;
+  object-fit: contain;
+}
+.navbar-right-wrapper {
+  display: flex;
+  align-items: center;
+}
+.navbar-right .navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+}
+//card
+.card-text {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-contact-form {
+  padding: 20px;
+  box-shadow: 0px 0px 6px 2px #0000000f;
+  border-radius: 10px;
+}
+.main-contact-details {
+  @extend .main-contact-form;
+}
+.card-single {
+  margin: 15px 0;
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 0px 6px 2px #0000000f;
+  img {
+    height: 200px;
+    object-fit: contain;
+  }
+}
+// .mcd-list {
+//   position: relative;
+//   padding-left: 20px;
+//   &::before {
+//     content: "\f111";
+//     position: absolute;
+//     font-family: "Font Awesome 5 Free";
+//     left: 0;
+//     color: #ff4e00;
+//     font-size: 10px;
+//   }
+// }
